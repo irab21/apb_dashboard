@@ -12,7 +12,7 @@ image= Image.open(image_url)
 st.image(image,width=350)
 
 
-DATA_URL= file1.xlsx
+DATA_URL= 'file1.xlsx'
 
 #@st.cache(persist =True)
 def load_data():
