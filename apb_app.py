@@ -8,11 +8,11 @@ import matplotlib.pyplot as plt
 from PIL import Image 
 
 
-image= Image.open('C:\\Users\\DELL\\Desktop\\posterity final.png') 
+image= Image.open(posterity final.png) 
 st.image(image,width=350)
-png_file= 'C:\\Users\\DELL\\Desktop\\posterity final.png'
 
-DATA_URL= ('C:\\Users\\DELL\\Desktop\\file1.xlsx')
+
+DATA_URL= file1.xlsx
 
 #@st.cache(persist =True)
 def load_data():
