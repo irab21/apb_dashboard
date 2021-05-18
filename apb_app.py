@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from PIL import Image 
 
 
-image= Image.open(posterity final.png) 
+image= Image.open('posterity final.png') 
 st.image(image,width=350)
 
 
