@@ -7,8 +7,8 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 from PIL import Image 
 
-
-image= Image.open(posterityfinal.png) 
+image_url=posterityfinal.png
+image= Image.open(image_url) 
 st.image(image,width=350)
 
 
