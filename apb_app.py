@@ -38,6 +38,7 @@ status_count=pd.DataFrame({'Status':status_count.index, 'Count':status_count.val
 
 
 st.markdown('### Number Of Positive Conversions, Negative Conversions And Pending Conversions')
+st.write('\n\n')
 st.write('\n\n As can be seen, out of **85** total selections:\n\n **24** Candidates were Positively Converted \n\n **45** Candidates were not Converted \n\n **3** Candidate Conversions are still Pending ')
 if st.sidebar.checkbox('Visual',True, key=4):
 	fig1=px.pie(status_count, values='Count',names='Status')
