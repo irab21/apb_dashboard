@@ -146,6 +146,6 @@ if password == "Airtel Payments Bank":
 	st.write('for their association with Posterity Solutions for FY 2020-21. \n\n We hope the interactive dashboard could give you an insight on the Client Engagement, our values are founded on. \n\n We look forward to a long and mutually fruitful association with you. \n\n Regards Posterity ')
 	st.image(image,width=150)
 else:
-	st.write('Wrong Password')
+	st.write('Enter Password')
 
 
